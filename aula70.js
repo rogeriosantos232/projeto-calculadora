@@ -68,4 +68,5 @@ tCopy.addEventListener("click",(evt)=>{
     teste.select()
     teste.setSelectionRange(0,999999)//Mobile
     navigator.clipboard.writeText(mostrador.innerHTML)
+    alert('texto copiado')
 })
