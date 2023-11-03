@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.calc{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+    flex-direction: column;
+    margin-top: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 225px;
+    border-radius: 3px;
+    background-color: grey;
+}
+.nome p{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 4px 4px 0px 0px;
+    color: #000000;
+}
+
+.nome{
+   width: 220px;
+
+}
+
+.teclas{
+    display: flex;
+    width: 220px;
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #000000;
+    border-radius: 0px 0px 5px 5px;
+}
+.tecla{
+    background-color: #545557;
+    border: 3px solid #a59f9f;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 2px;
+}
+.tecla:hover{
+    background-color: rgb(59, 58, 61);
+}
+
+.display{
+    border: 1px solid rgb(0, 0, 0);
+    width: 220px;
+    text-align: right;
+    padding: 5px;
+    font-family: monospace;
+    font-size: larger;
+    background-color: #51ad96;
+    height: 30px;
+}
